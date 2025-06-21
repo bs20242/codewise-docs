@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`CodeWise`}
-      description=""Uma ferramenta para automatizar e enriquecer Pull Requests no GitHub e analisar Commits.">
+      description="Uma ferramenta para automatizar e enriquecer Pull Requests no GitHub e analisar Commits.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
