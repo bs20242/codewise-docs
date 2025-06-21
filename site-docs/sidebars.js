@@ -1,24 +1,17 @@
 // sidebars.js
-
 const sidebars = {
   tutorialSidebar: [
-    'intro', // Link para docs/intro.md
+    'intro',
     {
       type: 'category',
-      label: 'Instalar e Usar', // Categoria
-      items: [
-        'guia-de-uso/instalacao',    // Link para docs/guia-de-uso/instalacao.md
-        'guia-de-uso/uso-diario',    // Link para docs/guia-de-uso/uso-diario.md
-      ],
+      label: 'Guia de Uso',
+      items: ['guia-de-uso/instalacao', 'guia-de-uso/uso-diario'],
     },
     {
       type: 'category',
-      label: 'Dicas e Extras', // Outra Categoria
-      items: [
-        'dicas-e-extras/comandos-uteis', // Link para docs/dicas-e-extras/comandos-uteis.md
-      ],
+      label: 'Dicas e Extras',
+      items: ['dicas-e-extras/comandos-uteis'],
     },
   ],
 };
-
 export default sidebars;
